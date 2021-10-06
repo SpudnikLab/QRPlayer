@@ -1,10 +1,10 @@
 
 var CACHE_NAME = 'my-offline-cache';
 var urlsToCache = [
-  '/',
-  '/index.html',
-  '/scripts/html5-qrcode.min.js',
-  '/scripts/pako.min.js'
+  '/QRPlayer/',
+  '/QRPlayer/index.html',
+  '/QRPlayer/scripts/html5-qrcode.min.js',
+  '/QRPlayer/scripts/pako.min.js'
 ];
 
 self.addEventListener('install', function(event) {
