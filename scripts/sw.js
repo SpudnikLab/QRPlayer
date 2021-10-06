@@ -1,9 +1,8 @@
 
 var CACHE_NAME = 'my-offline-cache';
 var urlsToCache = [
-  '/',
-  '/scripts/html5-qrcode.min.js',
-  '/scripts/pako.min.js'
+  '/html5-qrcode.min.js',
+  '/pako.min.js'
 ];
 
 self.addEventListener('install', function(event) {
