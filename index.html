@@ -2,6 +2,7 @@
 
 <head>
     <title>QRPlayer Prototype</title>
+    <link rel="canonical" href="https://spudniklab.github.io/QRPlayer/" />
     <style>
         body {
             background-color: powderblue;
@@ -69,7 +70,7 @@
 <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function () {
-            navigator.serviceWorker.register('/sw.js');
+            navigator.serviceWorker.register('/QRPlayer/sw.js', {scope:'/QRPlayer/'});
         });
     }
 </script>
